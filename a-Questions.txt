@@ -1,0 +1,14 @@
+1. i. generate a random integer between 0 and 18
+   ii. Find the max number in an array
+   iii. Convert an array of strings into a single comma seperated strings
+   iv. write a function to flattern a nested array onelevel deep
+    [1,[2,3],4] --> [1,2,3,4]
+   v. write a function to check if all elements of an array are numbers
+   vi. create a function that removes duplicate elements from an array
+
+2. i. write a function to check a number is prime or not
+   ii. check a number is integer or not
+   iii. reverse a number
+
+3. i.Reverse a sentence or string
+   ii. Sort a string
