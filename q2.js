@@ -19,3 +19,18 @@ function reverseNum(num){
     return Number(String(num).split('').reverse().join(''))
 }
 
+
+// iv. Shuffle an array
+function shuffleArray(arr){
+    for(let i in arr){
+        const swapIndex = Math.floor(Math.random() * arr.length)
+        const temp = arr[swapIndex]
+        arr[swapIndex] = arr[i]
+        arr[i] = temp
+    } 
+}
+const array = [1,2,3,4,5] 
+shuffleArray(array)
+console.log(array)
+
+

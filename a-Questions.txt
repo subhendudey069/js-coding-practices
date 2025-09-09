@@ -9,6 +9,10 @@
 2. i. write a function to check a number is prime or not
    ii. check a number is integer or not
    iii. reverse a number
+   iv. Shuffle an array
 
 3. i.Reverse a sentence or string
    ii. Sort a string
+   iii. In a sentence convert the first letter of each word in capital letter
+
+4. DOM: i. Input form and live preview using dom 

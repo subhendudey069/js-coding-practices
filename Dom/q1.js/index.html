@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <h1>Input form and live preview using dom </h1>
+    <div class="form-container">
+        <form class="form1">
+            <input type="text" name="email" class="email" />
+            <input type="password" name="password" class="password"/>
+            <div class="form-button-container">
+                <button type="submit" class="submit-button form-button">Submit</button>
+                <button type="reset" class="reset-button form-button">Reset</button>
+                <button type="button" class="show-password form-button">show pass</button>
+                <button type="button" class="preview-button form-button">Toggle Preview</button>
+            </div>
+        </form>
+        <div class="form-preview hide-form-preview">
+            <h2>Preview</h2>
+            <h3 class="email-preview"></h3>
+            <h3 class="password-preview"></h3>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
